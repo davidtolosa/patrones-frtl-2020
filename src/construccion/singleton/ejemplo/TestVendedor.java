@@ -1,6 +1,6 @@
 package construccion.singleton.ejemplo;
 
-public class TestComercial {
+public class TestVendedor {
 
 	public static void main(String[] args)
 	{
