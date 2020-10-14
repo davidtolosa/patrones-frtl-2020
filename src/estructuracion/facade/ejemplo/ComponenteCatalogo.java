@@ -14,10 +14,10 @@ public class ComponenteCatalogo implements Catalogo {
 	
 	@Override
 	public List<String> buscaVehiculos(int precioMin, int precioMax) {
-		int indice, tamaño;
+		int indice, tamano;
 		List<String> resultado = new ArrayList<String>();
-		tamaño = descripcionVehiculo.length / 2;
-		for (indice = 0; indice < tamaño; indice++) {
+		tamano = descripcionVehiculo.length / 2;
+		for (indice = 0; indice < tamano; indice++) {
 			int precio = (Integer) descripcionVehiculo[2 * indice + 1];
 			if ((precio >= precioMin) && (precio <= precioMax))
 				resultado.add((String) descripcionVehiculo[2 * indice]);
