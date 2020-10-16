@@ -1,4 +1,4 @@
-package estructuracion.proxy;
+package estructuracion.proxy.ejemplo;
 
 public class AnimacionProxy implements Animacion {
 
