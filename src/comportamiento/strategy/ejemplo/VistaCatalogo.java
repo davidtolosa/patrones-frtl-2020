@@ -1,4 +1,4 @@
-package comportamiento.strategy;
+package comportamiento.strategy.ejemplo;
 
 import java.util.ArrayList;
 import java.util.List;

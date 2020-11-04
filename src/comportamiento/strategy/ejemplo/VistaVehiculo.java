@@ -1,4 +1,4 @@
-package comportamiento.strategy;
+package comportamiento.strategy.ejemplo;
 
 public class VistaVehiculo {
 	protected String descripcion;

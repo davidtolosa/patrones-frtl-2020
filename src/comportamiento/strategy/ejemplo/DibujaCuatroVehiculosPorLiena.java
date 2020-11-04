@@ -1,18 +1,19 @@
-package comportamiento.strategy;
+package comportamiento.strategy.ejemplo;
 
 import java.util.List;
 
-public class DibujaTresVehiculosPorLinea implements DibujaCatalogo {
+public class DibujaCuatroVehiculosPorLiena implements DibujaCatalogo {
 
 	@Override
 	public void dibuja(List<VistaVehiculo> contenido) {
+		// TODO Auto-generated method stub
 		int contador;
 		System.out.println("Dibuja los vehiculos mostrando tres vehiculos por linea");
 		contador = 0;
 		for (VistaVehiculo vistaVehiculo : contenido) {
 			vistaVehiculo.dibuja();
 			contador++;
-			if (contador == 3) {
+			if (contador == 4) {
 				System.out.println();
 				contador = 0;
 			} else
